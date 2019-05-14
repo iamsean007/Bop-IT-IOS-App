@@ -14,6 +14,9 @@
 		0AC0B2D8204F5DE400EC4457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC0B2D6204F5DE400EC4457 /* LaunchScreen.storyboard */; };
 		0AC0B2E3204F5DE400EC4457 /* BOP_IT_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC0B2E2204F5DE400EC4457 /* BOP_IT_APPTests.swift */; };
 		0AC0B2EE204F5DE400EC4457 /* BOP_IT_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC0B2ED204F5DE400EC4457 /* BOP_IT_APPUITests.swift */; };
+		0AC0B2FC204F5E6200EC4457 /* Instructions_model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC0B2FB204F5E6200EC4457 /* Instructions_model.swift */; };
+		0AC31FB12050A3F5000C737B /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC31FB02050A3F5000C737B /* EndViewController.swift */; };
+		0AC31FB32050DCCA000C737B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC31FB22050DCCA000C737B /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		0AC0B2E9204F5DE400EC4457 /* BOP_IT_APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BOP_IT_APPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC0B2ED204F5DE400EC4457 /* BOP_IT_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOP_IT_APPUITests.swift; sourceTree = "<group>"; };
 		0AC0B2EF204F5DE400EC4457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AC0B2FB204F5E6200EC4457 /* Instructions_model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instructions_model.swift; sourceTree = "<group>"; };
+		0AC31FB02050A3F5000C737B /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
+		0AC31FB22050DCCA000C737B /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				0AC0B2CD204F5DE400EC4457 /* AppDelegate.swift */,
+				0AC31FB22050DCCA000C737B /* StartViewController.swift */,
 				0AC0B2CF204F5DE400EC4457 /* ViewController.swift */,
+				0AC31FB02050A3F5000C737B /* EndViewController.swift */,
+				0AC0B2FB204F5E6200EC4457 /* Instructions_model.swift */,
 				0AC0B2D1204F5DE400EC4457 /* Main.storyboard */,
 				0AC0B2D4204F5DE400EC4457 /* Assets.xcassets */,
 				0AC0B2D6204F5DE400EC4457 /* LaunchScreen.storyboard */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AC31FB32050DCCA000C737B /* StartViewController.swift in Sources */,
+				0AC31FB12050A3F5000C737B /* EndViewController.swift in Sources */,
 				0AC0B2D0204F5DE400EC4457 /* ViewController.swift in Sources */,
+				0AC0B2FC204F5E6200EC4457 /* Instructions_model.swift in Sources */,
 				0AC0B2CE204F5DE400EC4457 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,13 +438,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4HY7SKXDF;
 				INFOPLIST_FILE = BOP_IT_APP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Shivam-Mahendru.BOP-IT-APP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -440,13 +454,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4HY7SKXDF;
 				INFOPLIST_FILE = BOP_IT_APP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Shivam-Mahendru.BOP-IT-APP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
