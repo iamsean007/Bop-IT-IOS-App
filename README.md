@@ -1,4 +1,7 @@
-# Project Title
+
+# TITLE - Bop It IOS Game
+
+![Screenshot](Images/Landscape.png)
 
 IOS App simulating the original [Bop-It-Game](https://en.wikipedia.org/wiki/Bop_It) ideas using [UIGestureRecognizer](https://developer.apple.com/documentation/uikit/uigesturerecognizer) class.
 
